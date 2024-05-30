@@ -21,6 +21,10 @@
   --text-color: #4c4c4c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--body-bg);
   font-family: poppins-regular, 'sans-serif';

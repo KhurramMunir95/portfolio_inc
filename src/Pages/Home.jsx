@@ -73,7 +73,7 @@ const Home = () => {
     <Container>
       <Banner title='Syed Khurram Munir' subTitle='Software Developer' />
       <TextWithImage id="about-me" content={aboutContent} imgSrc={profilePic} justifyContent='center' alignment='center' />
-      <section className='section services-section'>
+      <section className='section services-section' id="services">
         <h2 className='text-center'>Services</h2>
         <Row>
         {
@@ -85,7 +85,7 @@ const Home = () => {
         }
         </Row>
       </section>
-      <section className='section projects-section'>
+      <section className='section projects-section' id="projects">
         <h2 className='text-center'>Projects</h2>
         <Row>
         {
