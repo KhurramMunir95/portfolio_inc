@@ -10,6 +10,7 @@ import { GrVmMaintenance } from "react-icons/gr";
 import cbImage from '../assets/images/projects/cb.png';
 import idaImage from '../assets/images/projects/ida.png';
 import vrImage from '../assets/images/projects/vr.png';
+import wavetel from '../assets/images/projects/wavetel.png';
 
 const Home = () => {
   const [services, setServices] = useState([
@@ -59,6 +60,13 @@ const Home = () => {
       content: 'This platform is designed to offer the latest in VR experiences across gaming, education, training, and entertainment.',
       image: vrImage,
       url: 'https://khurrammunir95.github.io/VirtualReality/'
+    },
+    {
+      title: 'Wavetel Business',
+      content: `Formed in 2010, Wavetel has grown to become a leading provider of telecom services in the UK and Rest of the world. 
+      We are proud to be trusted by thousands of organizations across the country.`,
+      image: wavetel,
+      url: 'https://wavetelbusiness.co.uk/'
     }
   ])
 
@@ -90,7 +98,7 @@ const Home = () => {
         <Row>
         {
           projects.map((project) => (
-            <Col md={4} key={project.title}>
+            <Col md={4} key={project.title} className='mt-3'>
               <Services service={project} image="image" />
             </Col>
           ))
