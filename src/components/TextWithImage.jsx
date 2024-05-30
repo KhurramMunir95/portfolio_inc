@@ -11,7 +11,7 @@ export const TextWithImage = ({ id, imgSrc, content, justifyContent, alignment }
                 <img src={imgSrc} alt="Syed Khurram Munir" className="img-fluid img-shadow" />
             </Col>
             <Col md={8}>
-                <h2>About Me</h2>
+                <h2 className='p-0'>About Me</h2>
                 <p>{content}</p>
             </Col>
             <Col md={6}>
