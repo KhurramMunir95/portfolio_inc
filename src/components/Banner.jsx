@@ -1,5 +1,6 @@
-import React from 'react'
-import ReactParticles from './ReactParticles'
+import React from 'react';
+import ReactParticles from './ReactParticles';
+import { Button } from 'react-bootstrap';
 
 const Banner = ({title, subTitle}) => {
   return (
@@ -9,6 +10,7 @@ const Banner = ({title, subTitle}) => {
           <div>
             <h1>{title}</h1>
             <p>{subTitle}</p>
+            <Button variant='outline-success' href='#about-me'>About Me</Button>
           </div>
         </div>
         <ReactParticles />
