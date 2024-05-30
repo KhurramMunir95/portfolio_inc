@@ -32,6 +32,10 @@ h1 {
   position: relative;
 }
 
+h2 {
+  padding: 40px 0 40px 0;
+}
+
 h2, h3, h4, h5, h6 {
   font-family: poppins-Semibold, 'sans-serif';
   z-index: 99;
@@ -76,4 +80,51 @@ p {
 /* shadows */
 .img-shadow {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Services section */
+.card {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-family: poppins-Semibold, 'sans-serif';
+  margin: 16px 0px;
+}
+
+.services-section .card-header {
+  padding-left: 0;
+}
+
+.services-section .card-header .icon {
+  font-size: 36px;
+}
+
+/* Projects section */
+.projects-section .card {
+  height: 100%;
+}
+
+.projects-section .card-header {
+  padding: 0;
+}
+
+.projects-section .card-header img {
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.projects-section .card-title {
+  font-family: poppins-Semibold, 'sans-serif';
+  margin: 16px 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+  /* Projects section */
+  .projects-section .card {
+    height: auto;
+  }
 }

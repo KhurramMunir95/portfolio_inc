@@ -1,20 +1,27 @@
 {
+  "homepage": "https://github.com/KhurramMunir95/portfolio_inc",
   "name": "portfolio",
+  "author": "Syed Khurram Munir",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
     "@tsparticles/engine": "^3.3.0",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
     "react-particles": "^2.12.2",
     "tsparticles": "^3.3.0",
     "tsparticles-slim": "^2.12.0"
