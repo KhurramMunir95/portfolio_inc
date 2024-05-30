@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/KhurramMunir95/portfolio_inc",
+  "homepage": "https://KhurramMunir95.github.io/portfolio_inc",
   "name": "portfolio",
   "author": "Syed Khurram Munir",
   "private": true,
@@ -11,7 +11,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.36",
