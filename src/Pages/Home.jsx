@@ -11,6 +11,7 @@ import cbImage from '../assets/images/projects/cb.png';
 import idaImage from '../assets/images/projects/ida.png';
 import vrImage from '../assets/images/projects/vr.png';
 import wavetel from '../assets/images/projects/wavetel.png';
+import Contact from '../components/Contact'
 
 const Home = () => {
   const [services, setServices] = useState([
@@ -103,6 +104,14 @@ const Home = () => {
             </Col>
           ))
         }
+        </Row>
+      </section>
+      <section className='section contact-section' id='contact-me'>
+        <h2 className='text-center'>Connect with Me Today!</h2>
+        <Row className='justify-content-center'>
+          <Col md={8}>
+            <Contact /> 
+          </Col>
         </Row>
       </section>
     </Container>
